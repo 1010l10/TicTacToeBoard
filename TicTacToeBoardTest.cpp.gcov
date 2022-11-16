@@ -1,0 +1,23 @@
+        -:    0:Source:TicTacToeBoardTest.cpp
+        -:    0:Graph:TicTacToeBoardTest.gcno
+        -:    0:Data:TicTacToeBoardTest.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/**
+        -:    2: * Unit Tests for TicTacToeBoard
+        -:    3:**/
+        -:    4:
+        -:    5:#include <gtest/gtest.h>
+        -:    6:#include "TicTacToeBoard.h"
+        -:    7: 
+        -:    8:class TicTacToeBoardTest : public ::testing::Test
+        -:    9:{
+        -:   10:	protected:
+        -:   11:		TicTacToeBoardTest(){} 
+        -:   12:		virtual ~TicTacToeBoardTest(){} 
+        -:   13:		virtual void SetUp(){} //sets up before each test (after constructor)
+        -:   14:		virtual void TearDown(){} //clean up after each test, (before destructor) 
+        3:   15:};
+        -:   16:
+        -:   17:
+        -:   18:
